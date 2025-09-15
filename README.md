@@ -13,6 +13,19 @@ _Here you can include images, like the logo from SU_
 
 ## Introduction
 
+# DSHI Dashboard
+
+This is a simple Streamlit web dashboard created for the PROHI course. 
+It contains two pages:
+1. **Dashboard**: Contains 3 different types of input widgets, shows synthetic data, and also a line charts
+2. **About**: Contains information about the project that I conducted in the DSHI course.
+
+## Screenshots
+
+![Dashboard Screenshot](dashboard.png)
+![About Page Screenshot](about.png)
+
+
 _This template project will contain a simple interactive web dashboard with Streamlit. Feel free to edit this document as desired_
 
 ## System description
