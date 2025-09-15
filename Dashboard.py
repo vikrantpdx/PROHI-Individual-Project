@@ -1,5 +1,28 @@
 import streamlit as st
 
+import streamlit as st
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Page title
+st.title("Dashboard")
+
+# Input widgets
+st.text_input("Enter your name")
+st.slider("Select a value", 0, 100)
+st.selectbox("Choose an option", ["Option 1", "Option 2", "Option 3"])
+
+# Display synthetic data
+data = pd.DataFrame({
+    "A": np.random.randint(0, 100, 10),
+    "B": np.random.randint(0, 100, 10)
+})
+st.dataframe(data)
+
+# Display a chart
+st.line_chart(data)
+
 
 st.set_page_config(
     page_title="PROHI Dashboard",
