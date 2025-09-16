@@ -22,8 +22,8 @@ It contains two pages:
 
 ## Screenshots
 
-![Dashboard Screenshot](dashboard.png)
-![About Page Screenshot](about.png)
+![Dashboard](Dashboard.png)
+![About Page](About.png)
 
 
 _This template project will contain a simple interactive web dashboard with Streamlit. Feel free to edit this document as desired_
